@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+void cetak(int n)
+{
+if(n<=4)
+cetak(n+1);
+cout<<n<<endl;
+}
+
+int main(int argc, char *argv[])
+{
+cout<<"Hasil dengan cara menggunakan rekursif: ";
+cetak(1);
+system("PAUSE");
+return 0;
+}
